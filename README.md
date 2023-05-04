@@ -1,9 +1,9 @@
 # pytorch-vggnet16
 
-OVERVIEW
+**# OVERVIEW**
 This project aims to implement VGGNet, a deep convolutional neural network (CNN) architecture, using the PyTorch framework from scratch. The objective is to efficiently use the PyTorch framework and create a model without using any pre-trained models.
 
-STRUCTURE
+# STRUCTURE
 The project contains the following files:
 
 model.ipynb
