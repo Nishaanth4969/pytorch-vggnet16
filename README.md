@@ -23,10 +23,10 @@ The dataset used for this project is taken from kaggle. its a dataset with 8 cla
 INFERENCES
 since the model is a very deep neural network with 16 layers it has a lot of parameters to tune. so it took a very long time to trian just one epoch(45mins) approx.
 finally i was able to reduce the dataset size and it took 3.5 hrs to finish 10 epochs. <img width="1363" alt="Screenshot 2023-05-01 at 10 09 30 PM" src="https://user-images.githubusercontent.com/105579183/235492727-a1b918c8-d52e-49ac-8110-364de10be59f.png">
-in some epochs the train accuracy was more than the test accuracy which is indicative of overfitting
-to prevent overfitting its necassary to add more data so that a very complex model like vgg16 can be trained properly.
-i also added batchnormaliation layers to normalize the input to every layers and reduce overfitting.
-trivial augment wide function was also incorporated to increase the randomness of the training set and reduce overfitting.
+in the epochs the train accuracy and test accuracy both are less which is indicative of underfitting
+to prevent underfitting its necassary to add more data so that a very complex model like vgg16 can be trained properly.
+i also added batchnormaliation and reduced the dropout layers to normalize the input to every layers.
+trivial augment wide function was also incorporated to increase the randomness of the training set and to introduce more vareity.
 
 
 
